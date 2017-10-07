@@ -1,0 +1,5 @@
+ID,I,5
+Price,F,10
+Status,C,20
+Discount,F,10
+A,F,10

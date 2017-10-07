@@ -1,0 +1,32 @@
+UPDATE team
+SET affilid = 3
+WHERE teamid in (SELECT teamid
+			FROM user
+			WHERE email in ('srinidhi13164@iiitd.ac.in',
+			'manav13057@iiitd.ac.in',
+			'divam14038@iiitd.ac.in',
+			'prankul14076@iiitd.ac.in',
+			'avadh14026@iiitd.ac.in',
+			'vikas14118@iiitd.ac.in',
+			'vivek14121@iiitd.ac.in',
+			'nikhil14060@iiitd.ac.in',
+			'abhishek14003@iiitd.ac.in',
+			'parth15156@iiitd.ac.in',
+			'saksham15082@iiitd.ac.in',
+			'aman15012@iiitd.ac.in',
+			'avdesh15135@iiitd.ac.in',
+			'ronak15080@iiitd.ac.in',
+			'abhinav15120@iiitd.ac.in',
+			'yellapragada15117@iiitd.ac.in',
+			'gunkirat15032@iiitd.ac.in',
+			'parikshit15155@iiitd.ac.in',
+			'vasu15113@iiitd.ac.in',
+			'akarsha15010@iiitd.ac.in',
+			'abhimanyu16003@iiitd.ac.in',
+			'osaid16252@iiitd.ac.in',
+			'piyush16066@iiitd.ac.in',
+			'ashutosh16012@iiitd.ac.in',
+			'anil16007@iiitd.ac.in',
+			'sanket16050@iiitd.ac.in',
+			'viresh16118@iiitd.ac.in',)
+		);

@@ -1,0 +1,10 @@
+Input Format:
+No. of queues, N_q <Space> No. of processes, N_p
+
+The N_p lines follow:
+jth line contains two integers a - arrival time and b - burst time.
+
+Then N_q lines follow:
+ith line contains the time quantum of ith queue
+
+Then there is one integer - boost time.

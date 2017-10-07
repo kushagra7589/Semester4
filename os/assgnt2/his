@@ -1,0 +1,78 @@
+ls
+history
+;d
+exit
+exit
+ls
+history
+ls
+ls -l
+history
+exit
+
+ls > out
+ls > out
+exit
+history
+exit
+ls > out
+ls > a
+ls
+ls > a
+./s < b
+./s > ab < b
+history
+cat ab
+ls > o
+cat o
+./b > abc 
+./s > abc < b
+cat abc
+ls
+histpry
+history
+ls > out
+ls > aaaa
+ls > aaaa
+car aaaa
+cat aaaa
+ls > oo
+ls > oo
+cat oo
+ls < oo
+ls > oo
+ls > ooo
+cat ooo
+ls > out
+cat out
+ls > out
+cat out
+ls > out
+ls > out
+ls > out
+ls
+ls
+ls
+ls
+ls
+ls
+exit
+ls
+wc shell.c
+exit
+ls > out
+cat out
+./s > abc < b
+ls
+cat abc
+exit
+ls
+cd ..
+ls
+./ksh
+exit
+ls > out
+cat out
+exit
+history > his
+-> 

@@ -1,0 +1,18 @@
+Group Member 1 : Akarsha Sehwag 2015010
+Group Member 2 : Kushagra Arora 2015049
+
+Language used : Python 2.7
+There are two python scripts in this folder:
+1. without_meta_data.py:
+	This script reads the data without meta data file. We know the order of elements that will appear in our data file. In this program, I have assumed that the data file is comma separated and the order of data is ID,Status,Price,Discount. We will output the data in this order only. Moreover to find sum, we first check whether the given field is a numeric field and report an error if not.
+2. with_meta_data.py
+	This script reads the data with meta data file. Meta data file defines the order of elements and their data type. In this, program the data is displayed in the order specified by meta data regardless of the order in which it is given in data file. Sum is found in a similar way as in the other script.
+
+To run the program without asking for sum :
+python with_meta_data.py
+
+To run the program asking for sum :
+python with_meta_data.py <sum_field>
+
+#the sum_field must be present in meta data file
+#It is assumed that data file is data.txt and meta data file is meta.txt

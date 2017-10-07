@@ -1,0 +1,1 @@
+What I am doing is taking input using getline and then parsing it followed by checking if it is exit. After which I fork the command and show an error ifthe execvp has an output as -1 after which if it is a parent it waits for a null time and comes out
